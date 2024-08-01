@@ -43,8 +43,6 @@ class TestAPI(unittest.TestCase):
 
         data = response.json()
         
-        data = response.json()
-        
         self.assertIsInstance(data, int)
 
 if __name__ == '__main__':
